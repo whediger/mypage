@@ -1,6 +1,8 @@
 
 body {
+  background-color: #000000;
   background-image: url("pics/press-bg.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -10,6 +12,43 @@ h1 {
   font-family: sans-serif;
   font-size: 3em;
   color: lightblue;
-  margin-left: 3em;
+  margin-left: 7%;
   margin-top: 1em;
+}
+
+#mePic {
+  position: absolute;
+  background-image: url("pics/mesnow.png");
+  background-repeat: no-repeat;
+  background-size: contain;;
+  height:375px;
+  width: 450px;
+  margin-top: 7%;
+  margin-left: 10%;
+
+}
+
+#thoughtBubble {
+  background-image: url("pics/thought-bubble.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 500px;
+  float: left;
+  margin-left: 25%;
+  margin-top: -8%;
+
+}
+
+#giff {
+  position: absolute;
+  z-index: -1;
+  margin-left: 39%;
+  margin-top: -2%;
+  background-image: url("pics/happy-dance.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:197px;
+  width: 215px;
+  float: left;
 }
