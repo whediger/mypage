@@ -2,7 +2,7 @@
 body {
   background-color: #000000;
   background-image: url("pics/press-bg.jpg");
-  background-size: cover;
+  background-size: 1200px 593px;
   background-repeat: no-repeat;
 }
 
@@ -12,43 +12,90 @@ h1 {
   font-family: sans-serif;
   font-size: 3em;
   color: lightblue;
-  margin-left: 7%;
-  margin-top: 1em;
+  margin-left: 50px;
+  margin-top: 48px;
 }
 
+.button {
+    position:fixed;
+    height: 20px;
+    width: 130px;
+    border: 2px solid #000099;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #fff;
+    opacity: .7;
+    font-family: sans-serif;
+
+}
+
+.button:hover {
+    box-shadow: 0px 0px 20px 4px white;
+    cursor: pointer;
+}
+
+#future-button {
+  padding-left: 10px;
+  padding-right: 0px;
+  margin-left: 800px;
+}
+
+#about-button {
+  padding-left: 25px;
+  margin-top: 210px;
+  margin-left: 510px;
+}
 #mePic {
-  position: absolute;
+  position: fixed;;
   background-image: url("pics/mesnow.png");
   background-repeat: no-repeat;
   background-size: contain;;
   height:375px;
   width: 450px;
-  margin-top: 7%;
-  margin-left: 10%;
+  margin-top: 83px;
+  margin-left: 100px;
 
 }
 
 #thoughtBubble {
+  position: fixed;
   background-image: url("pics/thought-bubble.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 500px;
   width: 500px;
   float: left;
-  margin-left: 25%;
-  margin-top: -8%;
+  margin-left: 235px;
+  margin-top: -135px;
 
 }
 
 #giff {
-  position: absolute;
+  position: fixed;
   z-index: -1;
-  margin-left: 39%;
-  margin-top: -2%;
+  margin-left: 405px;
+  margin-top: -65px;
   background-image: url("pics/whoa_aat.gif");
   background-repeat: no-repeat;
   background-size: contain;
   height:197px;
   width: 215px;
   float: left;
+}
+
+#about-me {
+  position: fixed;
+  height: 180px;
+  width: 600px;
+  border-radius: 20px;
+  margin-left: 510px;
+  margin-top: 240px;
+  padding: 15px 20px 10px 20px;
+  text-align: justify;
+  line-height: 120%;
+  font-size: 21px;
+  opacity: .7;
+  background-color: #333;
+  color: #fff;
+  font-family: sans-serif;
 }
