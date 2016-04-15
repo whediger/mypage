@@ -1,262 +1,77 @@
 
 body {
   background-color: #000000;
-  background-size: 1200px 593px;
+  background-size: 1200px 630px;
+  background-image: url("pics/backgrounds/future-world.jpg");
   background-repeat: no-repeat;
 }
 
+#back-button {
+  float: right;
+  height: 25px;
+  width: 150px;
+  border-radius: 10px;
+  border: solid lightgrey 3px;
+  margin-right: 100px;
+  color: lightgrey;
+  background-color: darkgreen;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+#back-button:hover {
+  box-shadow: 0px 0px 10px white;
+}
 #child-future {
-  opacity: 0;
-  position: fixed;
-  height: 217px;
-  width: 347px;
-  border-radius: 100px;
-  border: solid 3px black;
-  background-image: url('pics/page-images/child-earth-future.jpg');
-  background-size: cover;
-  margin-top: 100px;
-  margin-left: 400px;
-}
-
-#the-future {
-  opacity: 0;
-  position: fixed;
-  color: white;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 60px;
-  margin-top: 400px;
-  margin-left: 350px;
-}
-
-#only-thing {
-    opacity: 0;
-    position: fixed;
-    color: white;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: 400px;
-    margin-left: 270px;
-}
-
-#info-age {
-  opacity: 0;
-  position: fixed;
-  color: white;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 400px;
-  margin-left: 360px;
-}
-
-#background-road {
-  opacity: 0;
-  position: fixed;
-  height: 593px;
-  width: 1200px;
-  background-image: url("pics/backgrounds/bw-road-blur.jpg");
-  background-size: 1200px 593px;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-
-#intercon {
-  opacity: 0;
-  position: fixed;
-  height: 300px;
+  height: 200px;
   width: 300px;
-  border-radius: 100px;
-  border: solid 3px black;
-  background-image: url('pics/page-images/interconnectivity.jpg');
-  background-size: contain;
-  background-repeat: repeat;
-  margin-top: 50px;
-  margin-left: 450px;
-}
-
-#transform {
-  opacity: 0;
-  position: fixed;
-  color: white;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 400px;
-  margin-left: 340px;
-}
-
-#interface {
-  opacity: 0;
-  position: fixed;
-  height: 300px;
-  width: 350px;
-  border-radius: 100px;
-  border: solid 3px black;
-  background-image: url('pics/page-images/interface.jpg');
+  background-image: url("pics/page-images/child-earth.jpg");
   background-size: cover;
-  background-repeat: repeat;
-  margin-top: 50px;
-  margin-left: 430px;
+  border: solid 3px lightgrey;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
-#the-way {
-  opacity: 0;
-  position: fixed;
-  color: white;
+#future {
+  height: 100px;
+  width: 400px;
+  margin-left: -20px;
+  margin-top: 10px;
   font-family: sans-serif;
-  font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: bolder;
   text-align: center;
-  margin-top: 400px;
-  margin-left: 260px;
+  color: lightgrey;
 }
 
-#pill {
-  opacity: 0;
-  position: fixed;
-  height: 300px;
-  width: 350px;
-  border-radius: 100px;
-  border: solid 3px black;
-  background-image: url('pics/page-images/swallow-computers.jpg');
+#internet {
+  float: right;
+  height: 105px;
+  width: 180px;
+  background-image: url("pics/page-images/internet-of-things.jpg");
   background-size: cover;
-  background-repeat: repeat;
-  margin-top: 50px;
-  margin-left: 430px;
-}
-
-.ital {
-  font-weight: lighter;
-  font-style: italic;
-}
-
-#form {
-  opacity: 0;
-  position: fixed;
-  color: white;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 380px;
-  margin-left: 160px;
-}
-
-#robo-head {
-  opacity: 0;
-  position: fixed;
-  height: 300px;
-  width: 350px;
-  border-radius: 100px;
-  border: solid 3px black;
-  background-image: url('pics/page-images/robo-head.jpg');
-  background-size:cover;
-  background-repeat: repeat;
-  margin-top: 50px;
-  margin-left: 430px;
-}
-
-#human-nature {
-  opacity: 0;
-  position: fixed;
-  color: white;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 380px;
-  margin-left: 270px;
-}
-
-#people-machines {
-  opacity: 0;
-  position: fixed;
-  height: 193px;
-  width: 341px;
-  border-radius: 100px;
-  border: solid 3px black;
-  background-image: url('pics/page-images/people-machines.jpg');
-  background-size:cover;
-  background-repeat: repeat;
-  margin-top: 100px;
-  margin-left: 430px;
-}
-
-#moral {
-  opacity: 0;
-  position: fixed;
-  color: white;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 380px;
-  margin-left: 350px;
-}
-
-#course {
-  opacity: 0;
-  position: fixed;
-  color: white;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  text-align: center;
-  margin-top: 250px;
-  margin-left: 100px;
-}
-
-#trees {
-  opacity: 0;
-  position: fixed;
-  height: 593px;
-  width: 1200px;
-  background-image: url("pics/backgrounds/trees-bg.jpg");
-  background-size: 1200px 593px;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-
-#in-fact {
-  opacity: 0;
-  position: fixed;
-  color: white;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  text-align: center;
-  margin-top: 370px;
-  margin-left: 500px;
-}
-
-#drone {
-  opacity: 0;
-  position: fixed;
-  height: 320px;
-  width: 520px;
   border-radius: 10px;
-  border: solid 3px black;
-  background-image: url('pics/page-images/tree-drone.png');
-  background-size:cover;
-  background-repeat: repeat;
-  margin-top: 40px;
-  margin-left: 350px;
+  margin-right: 340px;
+  margin-top: -185px;
 }
 
-#more {
-  opacity: 0;
-  background-color: green;
-  border-radius: 10px;
-  position: fixed;
+#my-future {
+  height: 200px;
+  width: 600px;
+  float: right;
+  margin-right: 10px;
+  margin-top: -20px;
+  border-radius: 20px;
+  background-color: black;
+  opacity: .7;
   color: white;
   font-family: sans-serif;
-  font-weight: bold;
-  font-size: 30px;
+  font-size: 18px;
   text-align: center;
-  margin-top: 400px;
-  margin-left: 350px;
+}
+
+.line {
+  color: lightgreen;
 }
